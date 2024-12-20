@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     REACT_APP_MODE: process.env.REACT_APP_MODE,
     REACT_APP_BACKEND_URL: process.env.REACT_APP_BACKEND_URL,
   },
+  output: 'export',
 };
 
 export default nextConfig;
