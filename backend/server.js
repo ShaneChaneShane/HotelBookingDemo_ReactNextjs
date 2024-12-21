@@ -1,11 +1,11 @@
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import hotelsRouter from './api/hotels.js'; // Note: Use `.js` because compiled TypeScript becomes `.js`
+import hotelsRouter from './api/hotels.js';
 import tagsRouter from './api/tags.js';
 import path from 'node:path';
 import { fileURLToPath } from 'url';
-import fs from 'fs';
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
