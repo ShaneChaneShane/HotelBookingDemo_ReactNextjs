@@ -9,7 +9,7 @@ you can access the live backend [here](https://hotel-booking-backend-b5ace9f6f16
 
 <b>Features</b>
 - Simple `GET` endpoint returning hotels' data and images.
-- Server hosted on Heroku (free tier).
+- Server hosted on Heroku.
 - Built using Node.js and Express.js.
 
 <img src="https://github.com/user-attachments/assets/257d03e2-e58c-4b28-a7b5-18bf33d67b17" width=900>
