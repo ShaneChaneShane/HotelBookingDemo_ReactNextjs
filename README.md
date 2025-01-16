@@ -1,5 +1,5 @@
 # HotelBookingDemo_ReactNextjs
-A demo single-page web. built with React.js and Next.js for the frontend, styled using Tailwind CSS and written in TypeScript. The backend is powered by Node.js and Express.js
+A demo single-page website built with React.js and Next.js for the frontend, styled using Tailwind CSS and written in TypeScript. The backend is powered by Node.js and Express.js
 
 
 link of the website :
@@ -9,10 +9,11 @@ you can access the live backend [here](https://hotel-booking-backend-b5ace9f6f16
 
 <b>Features</b>
 - Simple `GET` endpoint returning hotels' data and images.
-- Server hosted on Heroku (free tier).
+- Server hosted on Heroku.
 - Built using Node.js and Express.js.
 
-<img src="https://github.com/user-attachments/assets/257d03e2-e58c-4b28-a7b5-18bf33d67b17" width=900>
+<img src="https://github.com/user-attachments/assets/dcd9c08c-dab1-4047-8809-8ebf5efecc0b" width=900>
+<p align="center"><img src = "https://github.com/user-attachments/assets/f491bc29-924c-4c1c-a125-511063463f01"></p>
 
 
 <p> </p>
