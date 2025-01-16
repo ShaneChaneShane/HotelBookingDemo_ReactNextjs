@@ -61,7 +61,7 @@ you can access the live backend [here](https://hotel-booking-backend-b5ace9f6f16
 	
   Set the REACT_APP_MODE=mock if frontend-only or  REACT_APP_MODE=production if backend-connected
 
-		#example
+	#example
 	REACT_APP_MODE=mock
 	REACT_APP_BACKEND_URL=http://localhost:5000
 
