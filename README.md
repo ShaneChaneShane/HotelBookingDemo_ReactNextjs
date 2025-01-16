@@ -27,12 +27,48 @@ you can access the live backend [here](https://hotel-booking-backend-b5ace9f6f16
 
 <h2> Setting up instructions for testing the demo</h2>
 
-<b>Setting Up the Frontend</b>
-
-    --coming soon--
-
 <b>Setting Up the Backend</b>
 
-    --coming soon--
+  clone and navigate to the backend directory:
+		
+	git clone https://github.com/ShaneChaneShane/HotelBookingDemo_ReactNextjs.git
+ 	cd ./HotelBookingDemo_ReactNextjs.git/backend
+
+  Create a .env file in the backend directory specifying the backend port
+
+ 	#example
+	PORT=5000
+
+  Restore dependencies:
+
+ 	npm install
+
+  run the backend
+
+	npm run start
+ 
 
 
+<b>Setting Up the Frontend</b>
+
+  navigate to the frontend directory:
+
+	cd ../frontend
+
+  Create a .env file in the frontend directory by copying .env.example.
+
+  Set the REACT_APP_BACKEND_URL to point to the backend server.
+	
+  Set the REACT_APP_MODE=mock if frontend-only or  REACT_APP_MODE=production if backend-connected
+
+		#example
+	REACT_APP_MODE=mock
+	REACT_APP_BACKEND_URL=http://localhost:5000
+
+ Restore dependencies:
+
+ 	npm install
+
+run the frontend
+
+	npm run dev
